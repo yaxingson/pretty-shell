@@ -19,7 +19,7 @@ mode [width, height] [/?]
 color [backgroundColor][foregroundColor]
 
 # 显示网络适配器信息
-ipconfig
+ipconfig > nul
 
 hostname
 
@@ -39,6 +39,7 @@ exit
 goto <label>
 
 # 命令行下打开文件、文件夹或网址和运行指定程序
+:: start cmd
 start [/max] [/min] [dir|file|url|program]
 
 # 调用程序
@@ -75,6 +76,7 @@ convert
 # 配置磁盘
 diskpart 
 
+# 打开计算机管理面板
 compmgmt
 
 chkdsk [/f] [/r]
@@ -139,7 +141,16 @@ del
 # 显示和修改地址解析协议(ARP)使用的“IP 到物理”地址转换表
 arp 
 
+# 对一组文件中的每一个文件执行某个特定命令
+for [/f] [/l]
 
+# 显示或更改文件属性
+attrib
+
+runas
+
+# 循环执行脚本
+%0
 
 ```
 
@@ -162,3 +173,5 @@ wget
 > 特殊符号：重定向(>、>>、<、<<)、连接符(&、&&、||)、管道符(|)和分组(())
 
 批处理文件参数格式：%n
+
+> bat2exe、压缩和解压格式转换
