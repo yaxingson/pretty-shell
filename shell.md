@@ -1,0 +1,24 @@
+
+- [ ] man  
+- [ ] info
+- [ ] whatis
+- [ ] touch
+- [ ] stat
+- [ ] mkdir
+- [ ] tree
+- [ ] rm
+- [ ] rmdir
+- [ ] mv
+- [ ] cp
+- [ ] cd
+- [ ] pwd
+- [ ] ls
+- [ ] more
+- [ ] rename
+- [ ] basename
+- [ ] dirname
+- [ ] chattr
+- [ ] lsattr
+- [ ] file
+- [ ] md5sum
+
