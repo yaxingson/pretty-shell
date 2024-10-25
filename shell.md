@@ -118,4 +118,16 @@
 - [ ] tcpdump
 - [ ] nc
 - [ ] apt
+- [ ] useradd
+- [ ] userdel
+- [ ] sudo
+- [ ] id
+- [ ] usermod
+- [ ] groups
+- [ ] groupadd
+- [ ] groupdel
+- [ ] who
+- [ ] w
+- [ ] last
+- [ ] users
 
