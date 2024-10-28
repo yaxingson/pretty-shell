@@ -130,4 +130,10 @@
 - [ ] w
 - [ ] last
 - [ ] users
+- [ ] pstree
+- [ ] pgrep
+- [ ] lsof
+- [ ] export
+- [ ] source
+- [ ] set
 
