@@ -1,0 +1,37 @@
+{
+  "name": "pretty-shell",
+  "version": "0.0.5",
+  "author": "yaxingson <3228891558@qq.com>",
+  "description": "utilities for using unix shell commands from node.js",
+  "keywords": [
+    "shell",
+    "unix",
+    "sh",
+    "commands",
+    "bash"
+  ],
+  "homepage": "https://github.com/yaxingson/pretty-shell",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yaxingson/pretty-shell.git"
+  },
+  "main": "index.ts",
+  "bin": {
+    "psx": "./bin/psx.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "rollup": "^4.27.3",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0",
+    "vitest": "^2.1.5"
+  },
+  "license": "MIT"
+}
