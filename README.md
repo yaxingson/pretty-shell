@@ -1,5 +1,12 @@
 <p align="center">
   <img src="https://imgbed.yiyunt.cn/img/885" />
+  <p align="center">
+    <a><img src="https://img.shields.io/github/actions/workflow/status/shelljs/shelljs/main.yml?style=flat-square&logo=github" /></a>
+    <a><img src="https://img.shields.io/codecov/c/github/shelljs/shelljs/master.svg?style=flat-square&label=coverage" /></a>
+    <a><img src="https://img.shields.io/npm/v/shelljs.svg?style=flat-square" /></a>
+    <a><img src="https://img.shields.io/npm/dm/shelljs.svg?style=flat-square" /></a>
+    <a><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" /></a>
+  </p>
 </p>
 
 ## Quick start
