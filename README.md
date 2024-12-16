@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://www.helloimg.com/i/2024/12/16/67603e7a490d5.png" />
+  <img src="./logo.png" />
   <p align="center">
     <a><img src="https://img.shields.io/github/actions/workflow/status/shelljs/shelljs/main.yml?style=flat-square&logo=github" /></a>
     <a><img src="https://img.shields.io/codecov/c/github/shelljs/shelljs/master.svg?style=flat-square&label=coverage" /></a>
