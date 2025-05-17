@@ -58,6 +58,7 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |  os       |  date     ||
 |           |  free     ||
 |           |  uname     ||
+|           | nohup    ||
 
 ## Examples
 
