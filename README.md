@@ -61,6 +61,11 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | touch | Update the access and modification times of each FILE to the current time. |
 |   | whereis | Locate the binary, source, and manual-page files for a command. |
 |   | find | Search for files in a directory hierarchy. |
+|   | zip | Package and compress (archive) files. |
+|   | unzip | List, test and extract compressed files in a ZIP archive. |
+|   | gzip  | Compress or uncompress FILEs (by default, compress FILES in-place). |
+|   | tar   | An archiving utility. |
+|   | tail  | Print the last 10 lines of each FILE to standard output. |
 |   net     |  ifconfig     ||
 |           |  netstat     ||
 |           |  ping     ||
@@ -68,6 +73,19 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |           |  free     ||
 |           |  uname     ||
 |           | nohup    ||
+|   | df | Show information about the file system on which each FILE resides, or all file systems by default. |
+|   | top | Display Linux processes. |
+|   | free | Display amount of free and used memory in the system. |
+|   | history |  Display or manipulate the history list. |
+|   | ps | report a snapshot of the current processes. |
+|   | systemctl |  Query or send control commands to the system manager. |
+|   | help | Display information about builtin commands. |
+|   | w | Show who is logged on and what they are doing. |
+|   | last | Show a listing of last logged in users. |
+|   | kill | Send a signal to a process. |
+|   | firewall-cmd | | 
+
+
 
 ## Examples
 
