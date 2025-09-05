@@ -66,6 +66,8 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | gzip  | Compress or uncompress FILEs (by default, compress FILES in-place). |
 |   | tar   | An archiving utility. |
 |   | tail  | Print the last 10 lines of each FILE to standard output. |
+|   | ln | Make links between files. |
+|   | stat | Display file or file system status. |
 |   net     |  ifconfig     ||
 |           |  netstat     ||
 |           |  ping     ||
