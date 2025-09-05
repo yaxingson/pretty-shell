@@ -45,13 +45,22 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 
 | category  | command  | description |
 |  -----    |  ------  |  -----      |
-|  fs       |  cd        ||
-|           |  ls          ||
-|           |  cat         ||
-|           |  chmod        ||
-|           |  cp         ||
+|  fs       |  cd        |  Change the shell working directory. |
+|           |  ls          | List information about the FILEs (the current directory by default). |
+|           |  cat         | Concatenate FILE(s) to standard output. |
+|           |  cp         | Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY. |
 |           |  find         ||
-|           |  pwd          ||
+|           |  pwd          | Print the name of the current working directory. |
+|           | mkdir   | Create the DIRECTORY(ies), if they do not already exist. |
+|   | rm | Remove (unlink) the FILE(s). |
+|   | rmdir  | Remove the DIRECTORY(ies), if they are empty. |
+|   | mv | Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY. |
+|   | grep  | PATTERNS can contain multiple patterns separated by newlines. |
+|   | chmod | Change the mode of each FILE to MODE. |
+|   | chown | Change the owner and/or group of each FILE to OWNER and/or GROUP. |
+|   | touch | Update the access and modification times of each FILE to the current time. |
+|   | whereis | Locate the binary, source, and manual-page files for a command. |
+|   | find | Search for files in a directory hierarchy. |
 |   net     |  ifconfig     ||
 |           |  netstat     ||
 |           |  ping     ||
