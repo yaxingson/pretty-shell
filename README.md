@@ -68,6 +68,18 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | tail  | Print the last 10 lines of each FILE to standard output. |
 |   | ln | Make links between files. |
 |   | stat | Display file or file system status. |
+|   | egrep | PATTERNS can contain multiple patterns separated by newlines. |
+|   | more  | A file perusal filter for CRT viewing. |
+|   | less  | |
+|   | head | Print the first 10 lines of each FILE to standard output. |
+|   | tail | Print the last 10 lines of each FILE to standard output. |
+|   | tac  | Write each FILE to standard output, last line first. |
+|   | nl   | Write each FILE to standard output, with line numbers added. |
+|   | wc   | Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified. |
+|   | split | Output pieces of FILE to PREFIXaa, PREFIXab, ... |
+|   | cut  | Print selected parts of lines from each FILE to standard output. |
+|   | paste | Write lines consisting of the sequentially corresponding lines from each FILE, separated by TABs, to standard output. |
+|   | sort | Write sorted concatenation of all FILE(s) to standard output. |
 |   net     |  ifconfig     ||
 |           |  netstat     ||
 |           |  ping     ||
