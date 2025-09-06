@@ -101,6 +101,13 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | telnet | User interface to the TELNET protocol. |
 |   | ssh  | OpenSSH remote login client. |
 |   | ftp  | Internet file transfer program. |
+|   | ip   | show / manipulate routing, network devices, interfaces and tunnels. | 
+|   | sftp | OpenSSH secure file transfer. |
+|   | lftp |  Sophisticated file transfer program. |
+|   | wget | The non-interactive network downloader. |
+|   | scp  |  OpenSSH secure file copy. |
+|   | curl | Transfer a URL. |
+|   | host | DNS lookup utility. |
 |  os       |  date     ||
 |           |  free     ||
 |           |  uname     ||
@@ -124,6 +131,10 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | bc | An arbitrary precision calculator language. |
 |   | watch | Execute a program periodically, showing output fullscreen. |
 |   | time | Run programs and summarize system resource usage. |
+|   | reboot | Reboot the system. |
+|   | init | Send control commands to the init daemon. |
+|   | date | Display the current time in the given FORMAT, or set the system date. |
+
 
 
 ## Examples
