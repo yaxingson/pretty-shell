@@ -85,9 +85,22 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | patch |  Apply a diff file to an original. |
 |   | join  | For each pair of input lines with identical join fields, write a line to standard output. |
 |   | tr    | Translate, squeeze, and/or delete characters from standard input, writing to standard output. |
-|   net     |  ifconfig     ||
-|           |  netstat     ||
-|           |  ping     ||
+|   | sed   | Stream editor for filtering and transforming text. |
+|   | awk   | Pattern scanning and processing language. |
+|   | du    | Summarize disk usage of the set of FILEs, recursively for directories. |
+|   | df    | Show information about the file system on which each FILE resides, or all file systems by default. |
+|   | sync  | Synchronize cached writes to persistent storage. |
+|   | mount | Mount a filesystem. |
+|   | dd    | Copy a file, converting and formatting according to the operands. |
+|   | zip  | Package and compress (archive) files. |
+|   net     |  ifconfig     | Configure a network interface. |
+|           |  netstat     | Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. |
+|           |  ping     |  Send ICMP ECHO_REQUEST to network hosts. |
+|   | traceroute | Print the route packets trace to network host. |
+|   | ss  | Another utility to investigate sockets. |
+|   | telnet | User interface to the TELNET protocol. |
+|   | ssh  | OpenSSH remote login client. |
+|   | ftp  | Internet file transfer program. |
 |  os       |  date     ||
 |           |  free     ||
 |           |  uname     ||
@@ -103,7 +116,14 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | last | Show a listing of last logged in users. |
 |   | kill | Send a signal to a process. |
 |   | firewall-cmd | | 
-
+|   | uptime | Tell how long the system has been running. |
+|   | ulimit |  Modify shell resource limits. |
+|   | service | Run a System V init script. |
+|   | ipcs | Show information on IPC facilities. |
+|   | ipcrm | Remove certain IPC resources. |
+|   | bc | An arbitrary precision calculator language. |
+|   | watch | Execute a program periodically, showing output fullscreen. |
+|   | time | Run programs and summarize system resource usage. |
 
 
 ## Examples
