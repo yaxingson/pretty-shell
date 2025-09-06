@@ -80,6 +80,11 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | cut  | Print selected parts of lines from each FILE to standard output. |
 |   | paste | Write lines consisting of the sequentially corresponding lines from each FILE, separated by TABs, to standard output. |
 |   | sort | Write sorted concatenation of all FILE(s) to standard output. |
+|   | uniq | Filter adjacent matching lines from INPUT (or standard input), writing to OUTPUT (or standard output). |
+|   | diff | Compare FILES line by line. |
+|   | patch |  Apply a diff file to an original. |
+|   | join  | For each pair of input lines with identical join fields, write a line to standard output. |
+|   | tr    | Translate, squeeze, and/or delete characters from standard input, writing to standard output. |
 |   net     |  ifconfig     ||
 |           |  netstat     ||
 |           |  ping     ||
