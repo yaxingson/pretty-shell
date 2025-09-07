@@ -49,7 +49,7 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |           |  ls          | List information about the FILEs (the current directory by default). |
 |           |  cat         | Concatenate FILE(s) to standard output. |
 |           |  cp         | Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY. |
-|           |  find         ||
+|           |  find         | Search for files in a directory hierarchy. |
 |           |  pwd          | Print the name of the current working directory. |
 |           | mkdir   | Create the DIRECTORY(ies), if they do not already exist. |
 |   | rm | Remove (unlink) the FILE(s). |
@@ -120,6 +120,7 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | systemctl |  Query or send control commands to the system manager. |
 |   | help | Display information about builtin commands. |
 |   | w | Show who is logged on and what they are doing. |
+|   | whoami | Print the user name associated with the current effective user ID. |
 |   | last | Show a listing of last logged in users. |
 |   | kill | Send a signal to a process. |
 |   | firewall-cmd | | 
@@ -134,7 +135,8 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | reboot | Reboot the system. |
 |   | init | Send control commands to the init daemon. |
 |   | date | Display the current time in the given FORMAT, or set the system date. |
-
+|   | cal  | Displays a calendar and the date of Easter. |
+|   | htop | Interactive process viewer. |
 
 
 ## Examples
