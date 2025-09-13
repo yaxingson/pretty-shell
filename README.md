@@ -93,6 +93,9 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | mount | Mount a filesystem. |
 |   | dd    | Copy a file, converting and formatting according to the operands. |
 |   | zip  | Package and compress (archive) files. |
+|   | zcat | Uncompress FILEs to standard output. |
+|   | xz   | Compress or decompress FILEs in the .xz format. |
+|   | bzip2 | A block-sorting file compressor. |
 |   net     |  ifconfig     | Configure a network interface. |
 |           |  netstat     | Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. |
 |           |  ping     |  Send ICMP ECHO_REQUEST to network hosts. |
@@ -137,6 +140,8 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | date | Display the current time in the given FORMAT, or set the system date. |
 |   | cal  | Displays a calendar and the date of Easter. |
 |   | htop | Interactive process viewer. |
+|   | lscpu | Display information about the CPU architecture. |
+|   | rsync | A fast, versatile, remote (and local) file-copying tool. |
 
 
 ## Examples
