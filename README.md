@@ -144,6 +144,7 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | lscpu | Display information about the CPU architecture. |
 |   | rsync | A fast, versatile, remote (and local) file-copying tool. |
 |   | ssh-keygen | OpenSSH authentication key utility. |
+|   | shutdown | Shut down the system. |
 
 
 ## Examples
