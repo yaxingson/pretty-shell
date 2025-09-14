@@ -96,6 +96,7 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | zcat | Uncompress FILEs to standard output. |
 |   | xz   | Compress or decompress FILEs in the .xz format. |
 |   | bzip2 | A block-sorting file compressor. |
+|   | free  | Display amount of free and used memory in the system. |
 |   net     |  ifconfig     | Configure a network interface. |
 |           |  netstat     | Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. |
 |           |  ping     |  Send ICMP ECHO_REQUEST to network hosts. |
@@ -142,6 +143,7 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | htop | Interactive process viewer. |
 |   | lscpu | Display information about the CPU architecture. |
 |   | rsync | A fast, versatile, remote (and local) file-copying tool. |
+|   | ssh-keygen | OpenSSH authentication key utility. |
 
 
 ## Examples
