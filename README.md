@@ -120,7 +120,8 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | top | Display Linux processes. |
 |   | free | Display amount of free and used memory in the system. |
 |   | history |  Display or manipulate the history list. |
-|   | ps | report a snapshot of the current processes. |
+|   | ps | report a snapshot of the current processes. | 
+|   | pstree | Display a tree of processes. |
 |   | systemctl |  Query or send control commands to the system manager. |
 |   | help | Display information about builtin commands. |
 |   | w | Show who is logged on and what they are doing. |
@@ -145,6 +146,14 @@ const { mkkdir, touch , rm } = require('pretty-shell')
 |   | rsync | A fast, versatile, remote (and local) file-copying tool. |
 |   | ssh-keygen | OpenSSH authentication key utility. |
 |   | shutdown | Shut down the system. |
+|   | lsof | List open files. |
+|   | jobs |  |
+|   | nohup | Run COMMAND, ignoring hangup signals. |
+|   | env | Set each NAME to VALUE in the environment and run COMMAND. |
+|   | xargs | Run COMMAND with arguments INITIAL-ARGS and more arguments read from input. |
+|   | exec  | |
+|   | crontab | Maintain crontab files for individual users (Vixie Cron). |
+
 
 
 ## Examples
